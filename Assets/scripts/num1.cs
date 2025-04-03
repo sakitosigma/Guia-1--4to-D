@@ -9,6 +9,7 @@ public class num1 : MonoBehaviour
     void Start()
     {
         num2 += 2;
+        Debug.Log(num2);
         Debug.Log(num2 * num2);
     }
 
