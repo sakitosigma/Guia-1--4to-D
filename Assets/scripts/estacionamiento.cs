@@ -13,7 +13,7 @@ public class estacionamiento : MonoBehaviour
         if(hora < 0 || hora > 24)
         {
             Debug.Log("te equivocaste de hora");
-            return;s
+            return;
         } else if(hora >= 10 && hora < 18)
         {
             estaAbierto = true;
